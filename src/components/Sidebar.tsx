@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, BookOpen, Trash2, Moon, Sun, Settings } from 'lucide-react';
+import { X, BookOpen, Trash2, Moon, Sun } from 'lucide-react';
 import { dsaTopics } from '../data/topics';
 import { AppSettings } from '../types';
 import TopicItem from './TopicItem';

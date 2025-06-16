@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Menu, Settings } from 'lucide-react';
+import  { useState, useEffect, useRef } from 'react';
+import { Menu } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import ChatMessage from './components/ChatMessage';
 import LoadingMessage from './components/LoadingMessage';
