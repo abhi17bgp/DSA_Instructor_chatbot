@@ -30,7 +30,7 @@ A conversational chatbot designed to help students understand and solve problems
 
 ## 📁 Project Structure
 
-
+```bash
 project/
 ├── index.html                 # App HTML shell
 ├── package.json              # Dependencies and scripts
@@ -45,19 +45,21 @@ project/
     ├── hooks/                # Custom React hooks
     ├── types/                # TypeScript types/interfaces
     └── data/                 # Static prompt data
+```
 ---
-## ⚙️ Setup Instructions
-# 1. Clone the repository
+# ⚙️ Setup Instructions
+## 1. Clone the repository
 git clone https://github.com/your-username/dsa-instructor-chatbot.git
+
 cd dsa-instructor-chatbot/project
 
-# 2. Install dependencies
+## 2. Install dependencies
 npm install
 
-# 3. Create .env file
+## 3. Create .env file
 echo "GEMINI_API_KEY=your_api_key_here" > .env
 
-# 4. Run the app
+## 4. Run the app
 npm run dev
 
 ## 📄 License
