@@ -49,16 +49,20 @@ project/
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
+# 1. Clone the Repository
+git clone https://github.com/your-username/dsa-instructor-chatbot.git
+cd dsa-instructor-chatbot/project
 
+# 2. Install Dependencies
+npm install
 
-# git clone https://github.com/your-username/dsa-instructor-chatbot.git
- # cd dsa-instructor-chatbot/project
-3. Install Dependencies
-   npm install
-4.Add you api_key(don't use mine)
-5. Run the App
-   npm run dev
+# 3. Create a .env file and add your Gemini API key
+# (Do NOT use someone else's key)
+echo "GEMINI_API_KEY=your_api_key_here" > .env
+
+# 4. Run the App
+npm run dev
+
 
 
 
