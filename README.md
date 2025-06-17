@@ -45,22 +45,21 @@ project/
     ├── hooks/                # Custom React hooks
     ├── types/                # TypeScript types/interfaces
     └── data/                 # Static prompt data
-```
 
-## ⚙️ Setup Instructions
 
-# 1. Clone the Repository
+# ⚙️ Setup Instructions
+
+## 1. Clone the Repository
 git clone https://github.com/your-username/dsa-instructor-chatbot.git
 cd dsa-instructor-chatbot/project
 
-# 2. Install Dependencies
+## 2. Install Dependencies
 npm install
 
-# 3. Create a .env file and add your Gemini API key
-# (Do NOT use someone else's key)
+## 3. Create a .env file and add your Gemini API key
 echo "GEMINI_API_KEY=your_api_key_here" > .env
 
-# 4. Run the App
+## 4. Run the App
 npm run dev
 
 
