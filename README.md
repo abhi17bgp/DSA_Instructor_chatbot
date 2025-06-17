@@ -2,6 +2,8 @@
 
 A conversational chatbot designed to help students understand and solve problems related to Data Structures and Algorithms (DSA). Built with React, TypeScript, and Tailwind CSS, and powered by a language model via Gemini API.
 
+🚀 **[Live Demo](https://dsa-instructor-chatbot-ccjg-abhi17bgps-projects.vercel.app)**
+
 ---
 
 ## 🚀 Features
@@ -43,8 +45,7 @@ project/
     ├── hooks/                # Custom React hooks
     ├── types/                # TypeScript types/interfaces
     └── data/                 # Static prompt data
---
-
+## ⚙️ Setup Instructions
 1. Clone the Repo
 git clone https://github.com/your-username/dsa-instructor-chatbot.git
 cd dsa-instructor-chatbot/project
@@ -64,7 +65,7 @@ MIT License © 2025 Abhishek Anand
 
 **Abhishek Anand**  
 3rd Year CSE @ SLIET  
-🔗 [LinkedIn](https://linkedin.com/in/abhishek-anand-sliet)
+🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-anand-626a13288/)
 
 
 
