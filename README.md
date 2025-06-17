@@ -1,0 +1,71 @@
+# 🤖 DSA Instructor Chatbot
+
+A conversational chatbot designed to help students understand and solve problems related to Data Structures and Algorithms (DSA). Built with React, TypeScript, and Tailwind CSS, and powered by a language model via Gemini API.
+
+---
+
+## 🚀 Features
+
+- 📘 Explain DSA topics interactively (e.g., sorting, trees, graphs)
+- 💡 Provides hints, code snippets, and step-by-step explanations
+- ⚡ Fast development with Vite
+- 🌈 Styled using Tailwind CSS
+- 🔁 Live chat interface with typing/loading states
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech             | Description                        |
+|------------------|------------------------------------|
+| React + Vite     | Frontend library + build tool      |
+| TypeScript       | Type-safe development              |
+| Tailwind CSS     | Utility-first CSS framework        |
+| Zustand          | Lightweight state management       |
+| Gemini API       | AI-powered backend for responses   |
+
+---
+
+## 📁 Project Structure
+
+```bash
+project/
+├── index.html                 # App HTML shell
+├── package.json              # Dependencies and scripts
+├── vite.config.ts           # Vite config
+├── tsconfig*.json           # TypeScript configs
+├── tailwind.config.js       # Tailwind setup
+├── postcss.config.js        # PostCSS setup
+└── src/
+    ├── main.tsx              # App entry
+    ├── components/           # Reusable UI components
+    ├── services/             # API and helper functions
+    ├── hooks/                # Custom React hooks
+    ├── types/                # TypeScript types/interfaces
+    └── data/                 # Static prompt data
+--
+
+1. Clone the Repo
+git clone https://github.com/your-username/dsa-instructor-chatbot.git
+cd dsa-instructor-chatbot/project
+2. Install Dependencies
+npm install
+3.Add you api_key(don't use mine)
+4. Run the App
+npm run dev
+
+
+## 📄 License
+----------
+
+MIT License © 2025 Abhishek Anand
+
+## 🙋‍♂️ Author
+
+**Abhishek Anand**  
+3rd Year CSE @ SLIET  
+🔗 [LinkedIn](https://linkedin.com/in/abhishek-anand-sliet)
+
+
+
+
