@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Code, Mic, Loader2 } from 'lucide-react';
+import { Send, Code,Loader2 } from 'lucide-react';
 
 interface ChatInputProps {
   onSendMessage: (message: string) => void;
@@ -76,7 +76,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled, theme })
               <Code className="w-4 h-4" />
             </button>
             
-            <button
+            {/* <button
               type="button"
               className={`p-2 rounded-lg transition-colors ${
                 theme === 'dark' 
@@ -86,7 +86,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, disabled, theme })
               title="Voice Input (Coming Soon)"
             >
               <Mic className="w-4 h-4" />
-            </button>
+            </button> */}
             
             <button
               type="submit"
