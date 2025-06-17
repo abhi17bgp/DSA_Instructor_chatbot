@@ -46,7 +46,8 @@ project/
     ├── types/                # TypeScript types/interfaces
     └── data/                 # Static prompt data
 
-
+---
+```
 # ⚙️ Setup Instructions
 
 ## 1. Clone the Repository
@@ -63,7 +64,7 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 npm run dev
 
 
-
+```
 
 ## 📄 License
 ----------
