@@ -51,8 +51,9 @@ project/
 # ⚙️ Setup Instructions
 1. Clone the Repo
 git clone https://github.com/your-username/dsa-instructor-chatbot.git
+
 cd dsa-instructor-chatbot/project
-2. Install Dependencies
+3. Install Dependencies
 npm install
 3.Add you api_key(don't use mine)
 4. Run the App
