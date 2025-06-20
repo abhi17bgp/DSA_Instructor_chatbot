@@ -48,33 +48,28 @@ project/
 ```
 ---
 # ⚙️ Setup Instructions
-## 1. Clone the repository
-``` bash
+## 1. Clone the repositor
+```
 git clone https://github.com/abhi17bgp/dsa-instructor-chatbot.git
 
 cd  dsa-instructor-chatbot/project
-
+```
 ## 2. Install dependencies
 ```
 npm install
-
-## 3. Create .env file
-On Windows (Command Prompt): 
+```
+## 3. Create .env file                  
+On Windows (Command Prompt):
 ```
 echo "GEMINI_API_KEY=your_api_key_here" > .env
-
+```
 ## 4. Run the app
 ```
 npm run dev
-
-## 📄 License
-----------
-
-MIT License © 2025 Abhishek Anand
+```
 
 ## 🙋‍♂️ Author
 
 **Abhishek Anand**  
 3rd Year CSE @ SLIET  
 🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-anand-626a13288/)
-
