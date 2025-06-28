@@ -10,7 +10,7 @@ import { Message, AppSettings } from './types';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 // Hardcoded API key - replace with your actual Gemini API key
-const GEMINI_API_KEY = 'AIzaSyDMm5gvphiTn0aIv-dpnmq1oQ1fWrW-C4c';
+const GEMINI_API_KEY = 'AIzaSyDMm5gvphiTn0aIv-dpnmq1oQ1fwRw-C4c';
 
 function App() {
   const [messages, setMessages] = useLocalStorage<Message[]>('dsa-chat-messages', []);
